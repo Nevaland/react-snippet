@@ -7,8 +7,10 @@ const CallSamplePage = () => {
   return (
     <div>
       <h1>Call Sample Page</h1>
+      
       <p>API Calling</p>
       <DataDisplay />
+
       <p>API Repeated Calling</p>
       <UpdatingDataDisplay />
     </div>

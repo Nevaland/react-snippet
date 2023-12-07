@@ -23,7 +23,7 @@ const UpdatingDataDisplay = () => {
 
   return (
     <div>
-      <h2>Data Display Component</h2>
+      <h2>Updating Data Display Component</h2>
       {data ? (
         <div>
           <pre>{JSON.stringify(data, null, 2)}</pre>
