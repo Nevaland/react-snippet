@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CallSamplePage from './pages/CallSamplePage';
 import ButtonPage from './pages/ButtonPage';
 import DragDropPage from './pages/DragDropPage';
+import NodePage from './pages/NodePage';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<CallSamplePage />} />
         <Route path="/button" element={<ButtonPage />} />
         <Route path="/dragdrop" element={<DragDropPage />} />
+        <Route path="/node" element={<NodePage />} />
       </Routes>
     </Router>
   );
