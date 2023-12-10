@@ -4,7 +4,7 @@ import '../Node.css';
 
 function Node() {
   return (
-    <div className="node-box">
+    <div className="node-box" draggable="True">
       <div>
         <div className='node-color-bar' />
       </div>
