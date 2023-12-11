@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 // npm install react-dnd react-dnd-html5-backend
-import update from 'immutability-helper'
+// import update from 'immutability-helper'
 // npm install immutability-helper
 
 import Column from './Column';

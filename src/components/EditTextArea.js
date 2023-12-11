@@ -31,14 +31,13 @@ function EditTextArea({initText, type}) {
     <div ref={ref}>
       {editable ? (
         <textarea
-          rows="10"
           className={type}
           type="text"
           value={text}
           onChange={(e) => handleChange(e)}
           onKeyDown={handleKeyDown} />
       ) : (
-        <div onClick={() => editOn()}>{text}</div>
+        <div onClick={() => editOn()} title={text}>{text}</div>
       )}
     </div>
   );

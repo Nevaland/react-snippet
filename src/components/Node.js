@@ -1,13 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 import EditTextArea from './EditTextArea'
 import '../Node.css';
 
 function Node() {
   return (
     <div className="node-box" draggable="True">
-      <div>
-        <div className='node-color-bar' />
-      </div>
+      <div className='node-color-bar' />
       <div className='node-keyword'>
         <EditTextArea initText="Deserunt" type="keyword" />
       </div>

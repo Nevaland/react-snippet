@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<CallSamplePage />} />
+        <Route path="/call" element={<CallSamplePage />} />
         <Route path="/button" element={<ButtonPage />} />
         <Route path="/dragdrop" element={<DragDropPage />} />
         <Route path="/node" element={<NodePage />} />
